@@ -6,7 +6,7 @@ let valueInNumber = Number(score)
 
 // console.log(typeof valueInNumber)
 
-// javaScript conversion outputs for few examples
+// javaScript conversion outputs for few examples when we use Number() function
 // "33" => 33
 // "33abc" => NaN (Not a number)
 // true = 1 // false = 0
