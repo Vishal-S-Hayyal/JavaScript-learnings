@@ -8,7 +8,7 @@ console.log(3 +
 console.log("Vishal");    
 
 let name = "Vishal"  //string 
-let age = 21   //age 
+let age = 21   //number
 let isLoggedIn = false  //boolean
 
 /* few (primitive) datadypes available in JS
