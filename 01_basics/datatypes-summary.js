@@ -37,6 +37,7 @@ let myObj = {
 console.log(myObj);
 console.log(fruits);
 
+
 const myFunction = function(){
     console.log("Hello World");
 }
