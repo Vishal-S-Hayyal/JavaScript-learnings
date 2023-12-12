@@ -22,6 +22,7 @@ const bigNumber = 3653876187312673786398123986n
 console.log(bigNumber);
 
 // console.log(id === newId);
+// this will return false because the symbol is always unique
 
 /* Reference (Non Primitive)
 3 Types : Arrays, Objects, Functions
