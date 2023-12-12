@@ -18,6 +18,9 @@ let userEmail
 const id = Symbol('123')
 const newId = Symbol('123')
 
+//console.log(id === newId);
+//this will return false because symbol is unique
+
 const bigNumber = 3653876187312673786398123986n
 console.log(bigNumber);
 
