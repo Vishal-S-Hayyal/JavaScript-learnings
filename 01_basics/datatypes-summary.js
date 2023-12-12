@@ -22,7 +22,7 @@ const newId = Symbol('123')
 //this will return false because symbol is unique
 
 const bigNumber = 3653876187312673786398123986n
-console.log(bigNumber);
+// console.log(bigNumber);
 
 // console.log(id === newId);
 // this will return false because the symbol is always unique
@@ -38,10 +38,42 @@ let myObj = {
     age: 21,
 }
 
-console.log(myObj);
-console.log(fruits);
+// console.log(myObj);
+// console.log(fruits);
 
 
 const myFunction = function(){
     console.log("Hello World");
 }
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// There are two types of memory available in javascript
+
+// STACK (PRIMITIVE)
+// Works on the principle of call by value
+
+// HEAP (NON-PRIMITIVE)
+// Works on the principle of call by refrence
+
+let myName = 'Vishal'
+
+let myAnothername = myName
+
+myAnothername = 'Visahl S Hayyal'
+
+// console.log(myName);
+// console.log(myAnothername);
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email =  "vishal@gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
