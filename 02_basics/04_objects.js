@@ -56,4 +56,25 @@ const users = [
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); // This is used to avoid crases due to missing values
 
+const student = {
+    name : "Arvind",
+    section : "k2",
+    regno : "RA2139323213" 
+}
+
+// console.log(student.regno);
+
+const {regno: studId} = student
+
+// console.log(studId);
+
+// Structure of api
+// Api's are used after de structuring it as object 
+// Api's are of json format
+
+// {
+//     "name" : "Arvind",
+//     "fullName" : "Arvind Srivastav",
+//     "Occupation" : "Student"
+// }
 
