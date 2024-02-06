@@ -31,4 +31,29 @@ function loginUserMessage (username){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+function calculateCartValue(val1,val2, ...num1){  //here 200 and 400 takes value for val1 and val2 respectively
+    return num1
+}
+// ... -> this is called as spread operator 
+
+// console.log(calculateCartValue(200,400,500,2000));
+
+const user = {
+    username : "Vishal",
+    price : 199
+}
+
+function handleObject (anyobject){
+    console.log(`Username is ${anyobject.username} and the cartvalue is ${anyobject.price}`);
+}
+
+// handleObject(user)
+
+const newArray = [200,300,400,500]
+
+function returnSecondValue(array){
+    return array[1]
+}
+console.log(returnSecondValue(newArray));
