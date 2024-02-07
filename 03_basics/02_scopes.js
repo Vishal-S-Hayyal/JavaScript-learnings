@@ -30,3 +30,11 @@ function addone(num){
     return num+1
 }
 addone(4)
+
+
+//concept of hosting which means we cann't use constants before executing functions
+const sum = function addtwo(num){
+    return num+2
+}
+addtwo(5)
+
