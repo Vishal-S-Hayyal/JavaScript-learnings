@@ -1,0 +1,25 @@
+/* .box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: aquamarine;
+} */
+/* .content{
+    color:teal;
+} */
+
+/* .newclass{
+    background-color: brown;
+} */
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
